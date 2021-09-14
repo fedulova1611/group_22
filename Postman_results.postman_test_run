@@ -1,0 +1,172 @@
+{
+	"id": "2d4210d5-ce97-469c-844c-30c7491c1e36",
+	"name": "New Collection DZ1",
+	"timestamp": "2021-09-14T20:24:33.351Z",
+	"collection_id": "17514465-3c574c07-10dd-4944-93be-f4a0857426fa",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6857652f-f5ae-4c7a-bd52-46db5d20e59f",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Tatyana&age=36",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e152abf4-de0f-4d52-95ec-4f761c36a8d5",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a10d79ff-5104-45e6-b2bf-1db440ed9030",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Tatyana&age=36&weight=58",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e1744f24-a0fd-452d-9b9d-0702569e7e6e",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Tatyana&age=36&salary=500",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				74
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "684c8d99-2bfe-4f0d-8b69-5852d9951bbe",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Tatyana&age=36&salary=1000",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				88
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "37f9c0d9-7d3b-40a5-ab81-b13145de6e18",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Tatyana&age=36&salary=5000",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ba0666c5-07dc-4ed2-9756-cd821d8d274b",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 602,
+	"collection": {
+		"requests": [
+			{
+				"id": "6857652f-f5ae-4c7a-bd52-46db5d20e59f",
+				"method": "GET"
+			},
+			{
+				"id": "e152abf4-de0f-4d52-95ec-4f761c36a8d5",
+				"method": "POST"
+			},
+			{
+				"id": "a10d79ff-5104-45e6-b2bf-1db440ed9030",
+				"method": "GET"
+			},
+			{
+				"id": "e1744f24-a0fd-452d-9b9d-0702569e7e6e",
+				"method": "GET"
+			},
+			{
+				"id": "684c8d99-2bfe-4f0d-8b69-5852d9951bbe",
+				"method": "GET"
+			},
+			{
+				"id": "37f9c0d9-7d3b-40a5-ab81-b13145de6e18",
+				"method": "GET"
+			},
+			{
+				"id": "ba0666c5-07dc-4ed2-9756-cd821d8d274b",
+				"method": "POST"
+			}
+		]
+	}
+}
